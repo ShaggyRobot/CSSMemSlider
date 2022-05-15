@@ -109,14 +109,15 @@ body {
 }
 
 .i3 {
-  margin-top: -45%;
+  margin-top: -44%;
 }
 
 .l3{
   margin-left: 84%;
-  margin-top: 45%;
+  margin-top: 44%;
   display: inline-flex;
   width: fit-content;
+  line-height: 0;
   cursor: progress;
 }
 
