@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: Fira code;
+  font-style: normal;
+  font-display: swap;
+  src:
+  url("./assets/FiraCode-VF-FR.ttf") format("ttf");
+}
+
+body {
+  background-color: rgb(40, 40, 40);
+  font-family: Fira code;
+  font-size: 1rem;
+}
+
+.wrapper {
+  width: 50rem;
+  max-width: 90%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 0.2rem solid rgb(50, 48, 47);
+  border-radius: 0.25rem;
+}
+
+.slider {
+  height: fit-content;
+  overflow: hidden;
+}
+
+.slides {
+  width: 600%;
+  display: flex;
+  flex-direction: row;
+}
