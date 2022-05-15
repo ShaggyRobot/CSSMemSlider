@@ -16,11 +16,12 @@ body {
   background-color: rgb(40, 40, 40);
   font-family: Fira code;
   font-size: 1rem;
+  overflow: hidden;
 }
 
 .wrapper {
   width: 50rem;
-  max-width: 90%;
+  max-width: 85%;
   margin: 1rem auto;
   padding: 1rem;
   border: 0.2rem solid rgb(50, 48, 47);
