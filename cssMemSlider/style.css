@@ -123,3 +123,134 @@ body {
 input[name='rb'] {
   display: none;
 }
+
+
+
+
+
+
+#rb1:checked ~ .slides > .slide__first {
+  margin-left: 0;
+}
+#rb1:checked ~ .text-slides .nav > label[for='rb1'] > .nav__label-indicator {
+  background-color: rgb(218, 169, 87);
+  animation: animate 0.7s;
+  animation-timing-function: cubic-bezier(0.13, 0.32, 0.59, 1.39);
+  width: 1.6rem;
+}
+#rb1:not(:checked) ~ .text-slides > .textarea label[for='rb1'] ~ .nav {
+  display: none;
+}
+#rb1:checked ~ .text-slides > .textarea label[for='rb1'] ~ .text {
+  opacity: 1;
+  line-height: 1.2rem;
+  overflow: visible;
+}
+#rb1:checked ~ .text-slides > .textarea label[for='rb1'] ~ .nav {
+  display: flex;
+}
+
+#rb2:checked ~ .slides > .slide__first {
+  margin-left: -16.66%;
+}
+#rb2:checked ~ .text-slides .nav > label[for='rb2'] > .nav__label-indicator {
+  background-color: rgb(218, 169, 87);
+  animation: animate 0.7s;
+  animation-timing-function: cubic-bezier(0.13, 0.32, 0.59, 1.39);
+  width: 1.6rem;
+}
+#rb2:not(:checked) ~ .text-slides > .textarea label[for='rb2'] ~ .nav {
+  display: none;
+}
+#rb2:checked ~ .text-slides > .textarea label[for='rb2'] ~ .text {
+  opacity: 1;
+  line-height: 1.2rem;
+  overflow: visible;
+}
+#rb2:checked ~ .text-slides > .textarea label[for='rb2'] ~ .nav {
+  display: flex;
+}
+
+#rb3:checked ~ .slides > .slide__first {
+  margin-left: -33.33%;
+}
+#rb3:checked ~ .text-slides .nav > label[for='rb3'] > .nav__label-indicator {
+  background-color: rgb(218, 169, 87);
+  animation: animate 0.7s;
+  animation-timing-function: cubic-bezier(0.13, 0.32, 0.59, 1.39);
+  width: 1.6rem;
+}
+#rb3:not(:checked) ~ .text-slides > .textarea label[for='rb3'] ~ .nav {
+  display: none;
+}
+#rb3:checked ~ .text-slides > .textarea label[for='rb3'] ~ .text {
+  opacity: 1;
+  line-height: 1.2rem;
+  overflow: visible;
+}
+#rb3:checked ~ .text-slides > .textarea label[for='rb3'] ~ .nav {
+  display: flex;
+}
+
+#rb4:checked ~ .slides > .slide__first {
+  margin-left: -50%;
+}
+#rb4:checked ~ .text-slides .nav > label[for='rb4'] > .nav__label-indicator {
+  background-color: rgb(218, 169, 87);
+  animation: animate 0.7s;
+  animation-timing-function: cubic-bezier(0.13, 0.32, 0.59, 1.39);
+  width: 1.6rem;
+}
+#rb4:not(:checked) ~ .text-slides > .textarea label[for='rb4'] ~ .nav {
+  display: none;
+}
+#rb4:checked ~ .text-slides > .textarea label[for='rb4'] ~ .text {
+  opacity: 1;
+  line-height: 1.2rem;
+  overflow: visible;
+}
+#rb4:checked ~ .text-slides > .textarea label[for='rb4'] ~ .nav {
+  display: flex;
+}
+
+#rb5:checked ~ .slides > .slide__first {
+  margin-left: -66.66%;
+}
+#rb5:checked ~ .text-slides .nav > label[for='rb5'] > .nav__label-indicator {
+  background-color: rgb(218, 169, 87);
+  animation: animate 0.7s;
+  animation-timing-function: cubic-bezier(0.13, 0.32, 0.59, 1.39);
+  width: 1.6rem;
+}
+#rb5:not(:checked) ~ .text-slides > .textarea label[for='rb5'] ~ .nav {
+  display: none;
+}
+#rb5:checked ~ .text-slides > .textarea label[for='rb5'] ~ .text {
+  opacity: 1;
+  line-height: 1.2rem;
+  overflow: visible;
+}
+#rb5:checked ~ .text-slides > .textarea label[for='rb5'] ~ .nav {
+  display: flex;
+}
+
+#rb0:checked ~ .slides > .slide__first {
+  margin-left: -83.33%;
+}
+#rb0:checked ~ .text-slides .nav > label[for='rb0'] > .nav__label-indicator {
+  background-color: rgb(218, 169, 87);
+  animation: animate 0.7s;
+  animation-timing-function: cubic-bezier(0.13, 0.32, 0.59, 1.39);
+  width: 1.6rem;
+}
+#rb0:not(:checked) ~ .text-slides > .textarea label[for='rb0'] ~ .nav {
+  display: none;
+}
+#rb0:checked ~ .text-slides > .textarea label[for='rb0'] ~ .text {
+  opacity: 1;
+  line-height: 1.2rem;
+  overflow: visible;
+}
+#rb0:checked ~ .text-slides > .textarea label[for='rb0'] ~ .nav {
+  display: flex;
+}
