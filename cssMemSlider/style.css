@@ -106,3 +106,20 @@ body {
 .nav__label:hover > .nav__label-indicator {
   background-color: rgb(218, 169, 87);
 }
+
+.i3 {
+  margin-top: -45%;
+}
+
+.l3{
+  margin-left: 84%;
+  margin-top: 45%;
+  display: inline-flex;
+  width: fit-content;
+  cursor: progress;
+}
+
+
+input[name='rb'] {
+  display: none;
+}
