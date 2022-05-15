@@ -37,3 +37,72 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+.slides {
+  width: 600%;
+  display: flex;
+  flex-direction: row;
+}
+
+.slide {
+  width: 16.666%;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.slide img {
+  pointer-events: none;
+  max-width: 100%;
+}
+
+.textarea {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 1.2rem;
+  color: rgb(210, 191, 117);
+}
+
+.textarea > label {
+  display: none;
+}
+
+
+.text {
+  opacity: 0;
+  line-height: 0;
+  transition: 0.7s linear;
+  overflow: hidden;
+}
+
+.nav {
+  left: 50%;
+  border: 0.15rem solid rgb(50, 48, 47);
+  border-radius: 1rem;
+  display: flex;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.nav__label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.6rem;
+  width: 3rem;
+}
+
+.nav__label-indicator {
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: rgb(107, 100, 80);
+  transition: 0.25s ;
+}
+
+.nav__label:hover > .nav__label-indicator {
+  background-color: rgb(218, 169, 87);
+}
