@@ -124,10 +124,28 @@ input[name='rb'] {
   display: none;
 }
 
+@media screen and (max-width: 768px) {
+  .textarea {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .nav {
+    margin-left: 0;
+  }
 
+  .wrapper {
+    max-width: 90vw;
+  }
+}
 
-
-
+@keyframes animate {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
 
 #rb1:checked ~ .slides > .slide__first {
   margin-left: 0;
