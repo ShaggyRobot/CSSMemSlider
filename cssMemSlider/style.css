@@ -114,11 +114,12 @@ body {
 
 .l3{
   margin-left: 84%;
-  margin-top: 44%;
+  margin-top: 43%;
+  line-height: 0;
   display: inline-flex;
   width: fit-content;
-  line-height: 0;
-  cursor: progress;
+  cursor: url('./assets/wrong-finger.png') 12 3, auto;
+  /* cursor: pointer; */
 }
 
 
